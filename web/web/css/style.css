@@ -180,7 +180,7 @@ div#bs-example-navbar-collapse-1 {
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
-    color: #000;
+    color: #fff;
 	 font-size: 1em;
     white-space: nowrap;
 }
@@ -202,17 +202,17 @@ div#bs-example-navbar-collapse-1 {
 .banner1{
 	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	max-height:150px;
+	min-height:650px;
 }
 .banner2{
 	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	max-height:150px;
+	min-height:650px;
 }
 .banner3{
 	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	max-height:150px;
+	min-height:650px;
 }
 .slider {
 	position: relative;
