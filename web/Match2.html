@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Orchard</title>
+<title>Match</title>
 <!---css--->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -24,185 +24,156 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 <!---fonts-->
-<!-- FlexSlider -->
-	 <script src="js/jquery.flexslider.js"></script>
-		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-			<script>
-			// Can also be used with $(document).ready()
-				$(window).load(function() {
-				$('.flexslider').flexslider({
-				animation: "slide",
-				controlNav: "thumbnails"
-				});
-				});
-			</script>
-			<!-- //FlexSlider-->
+<!-- pop-up -->
+<link rel="stylesheet" href="css/swipebox.css">
+			<script src="js/jquery.swipebox.min.js"></script> 
+			    <script type="text/javascript">
+					jQuery(function($) {
+						$(".swipebox").swipebox();
+					});
+				</script>
+
+<!-- pop-up -->
+
+
+
 </head>
 <body>
-		<!--header-->
-			<div class="header-section">
-				<div class="container">
-					<div class="head-top">
-						<div class="social-icon">
-							
-							<div class="navbar-brand">
-								<h1><a href="index.html"><span>The </span>Orchard</a></h1>								
-							</div>
-						</div>
-						<div class="email">
-							<ul>
-								
-								<li><i class="glyphicon glyphicon-comment" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">แชท</a></li>
-								<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">เข้าสู่ระบบ</a></li>
-								<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">สมัครสมาชิก</a></li>
-							</ul>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<nav class="navbar navbar-default">
-					<!--Brand and toggle get grouped for better mobile display-->
-						
-						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>				  
-							
-						</div>
-						
+	<!--header-->
+	<div class="header-section">
+		<div class="container">
+			<div class="head-top">
+				<div class="social-icon">
 
-			<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-							<ul class="nav navbar-nav">
-								<li><a href="index.html">หน้าแรก</a></li>
-								<li class="active"><a href="orchard.html">ชมสวน<span class="sr-only">(current)</span></a></li>
-								<li><a href="match.html">จับคู่สวน</a></li>
-								<li><a href="contact.html">ติดต่อเรา</a></li>
-							</ul>
-							<div class="clearfix"></div>
-						</div>
-						<div class="email">
-							<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
-						</div>
-					</nav>
+					<div class="navbar-brand">
+						<h1><a href="index.html"><span>The </span>Orchard</a></h1>								
+					</div>
 				</div>
+				<div class="email">
+					<ul>
+
+						<li><i class="glyphicon glyphicon-comment" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">แชท</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#myModal1"><i class="glyphicon glyphicon-bell" aria-hidden="true"></i>แจ้งเตือน</a></li>
+						<li>
+							<select>
+								<option value="sumet" selected>สุเมธ</option>
+								<option value="suan1" >สวนเบ็ญจวรรณ์</option>
+								<option value="suan2" >สวนกุลภัสร์</option>
+								<option value="suan3" >สวนพุดทรัพย์</option>
+								<option value="suan4" >สวนสิริจรรยา</option>
+								<option value="suan5" >สวนรุจิระธราพันธุ์</option>
+							</select>
+						</li>
+						<li><i class="glyphicon glyphicon-log-out" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">ออกจากระบบ</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
 			</div>
-		<!--header-->
-								
-		<!--banner-->
-		<div class="banner-section">
-			<div class="container">
+			<nav class="navbar navbar-default">
+				<!--Brand and toggle get grouped for better mobile display-->
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>				  
+
+				</div>
+
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">หน้าแรก</a></li>
+						<li><a href="orchard.html">ชมสวน</a></li>
+						<li><a href="match.html">จับคู่สวน</a></li>
+						<li><a href="contact.html">ติดต่อเรา</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+				<div class="email">
+					<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!--header-->							
+
+			<br>
+			<div class="row">
+				<div class="col-md-2">
+				</div>
+				<div class="col-md-8">
+					<div class="alert alert-success alert-dismissable" style="text-align: center;">
+						<h3>ผลลัพธ์</h3>
+						<br>
+						<ul class="breadcrumb">
+							<li class="active">
+								ส้มเขียวหวาน 20 กิโลกรัม 
+							</li>
+							<li>
+								<a href="#">ส้มโชกุน 50 กิโลกรัม</a>
+							</li>
+							<li>
+								<a href="#">ส้มสายน้ำผึ้ง 1 ตัน</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+				</div>
 			</div>
 		</div>
-		<!--banner-->
 
-		<!--Featured Properties-->
-				<div class="feature-section">
+
+	<div class="feature-section">
 					<div class="container">
-						<h3>Orchard</h3>
 						<div class="feature-grids">
-							<div class="col-md-3 feature-grid">
-								<img src="images/gap.png" style="position: absolute;">
-								<img src="images/f1.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Villa in Hialeah, Dade</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$2,500 Per Month</span>
+							<div class="col-md-4 feature-grid" >
+								<div class="col-sm-12">
+					                        <div class="left col-xs-7">
+					                            <p style="font-size: 20px">สวนจำเริญ</p>
+					                            <p><strong>รายละเอียด: </strong></p>
+					                            <p>ขายเงาะโรงเรียน</p>
+					                            <p>เงาะอร่อยๆต้องเงาะโรงเรียน</p>
+					                        </div>
+									        <div class="right col-xs-5">
+									            <img src="images/a4.jpg" alt="" class="img-circle img-responsive">
+									        </div>
+				                </div>
+				                        <div class="col-xs-12 bottom">                            
+				                            <div class="emphasis" style="float: right;">
+				                              	<button type="button" class="btn btn-success btn-xs"> 
+					                              	<i class="fa fa-check"> </i> กำลังติดตาม
+				                              	</button>
+				                              	<button type="button" class="btn btn-primary btn-xs">
+				                                	<i class="fa fa-user"> </i> ดูข้อมูล
+				                              	</button>
+				                            </div>
+				                        </div>
 							</div>
-							<div class="col-md-3 feature-grid">
+							<div class="col-md-4 feature-grid">
 								<img src="images/f2.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>401 Biscayne Boulevard</h5>
 								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
 								<span>$7,500 Per Month</span>
 							</div>
-							<div class="col-md-3 feature-grid">
+							<div class="col-md-4 feature-grid">
 								<img src="images/f3.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>154 Southwest  Terra</h5>
 								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
 								<span>$9,500 Per Month</span>
 							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f4.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Florida 5, Pinecrest, FL</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$5,500 Per Month</span>
-							</div>
+							
 							<div class="clearfix"></div>
 						</div>
 					</div>
 				</div>
-		<!--Featured Properties-->
 
-		<!--Featured Properties-->
-				<div class="feature-section">
-					<div class="container">
-						<div class="feature-grids">
-							<div class="col-md-3 feature-grid">
-								<img src="images/f1.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Villa in Hialeah, Dade</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$2,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f2.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>401 Biscayne Boulevard</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$7,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f3.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>154 Southwest  Terra</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$9,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f4.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Florida 5, Pinecrest, FL</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$5,500 Per Month</span>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-		<!--Featured Properties-->
-
-		<!--Featured Properties-->
-				<div class="feature-section">
-					<div class="container">
-						<div class="feature-grids">
-							<div class="col-md-3 feature-grid">
-								<img src="images/f1.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Villa in Hialeah, Dade</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$2,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f2.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>401 Biscayne Boulevard</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$7,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f3.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>154 Southwest  Terra</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$9,500 Per Month</span>
-							</div>
-							<div class="col-md-3 feature-grid">
-								<img src="images/f4.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
-								<h5>Florida 5, Pinecrest, FL</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer  elit,… <a href="#">Know More</a></p>
-								<span>$5,500 Per Month</span>
-							</div>
-							<div class="clearfix"></div>
-						</div>
-					</div>
-				</div>
-		<!--Featured Properties-->
-		
 		<!--footer-->
 			<div class="footer-section">
 				<div class="container">
@@ -246,7 +217,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			</div>
-			<!---footer--->
+			<!--footer-->
 			<!--copy-->
 			<div class="copy-section">
 				<div class="container">
@@ -317,5 +288,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 			</div>
 			<!-- //Register -->
+
+			
 </body>
 </html>
