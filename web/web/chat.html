@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Search</title>
+<title>Chat</title>
 <!---css--->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -40,80 +40,69 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 		<!--header-->
-	<div class="header-section">
-		<div class="container">
-			<div class="head-top" style="height: 80px">				
-				<div class="navbar-brand">
-					<a href="index.html">
-						<img src="images/fastfruit.png" style="width: 300px; height: 70px; position: absolute;">
-					</a>
+			<div class="header-section">
+				<div class="container">
+					<div class="head-top" style="height: 80px">				
+							<div class="navbar-brand">
+								<a href="index.html">
+									<img src="images/fastfruit.png" style="width: 300px; height: 70px; position: absolute;">
+								</a>
+							</div>
+						<div class="email">
+							<ul>								
+								<li>
+									<a href="chat.html" >
+										<i class="glyphicon glyphicon-comment" aria-hidden="true"></i>แชท
+									</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal">
+										<i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>เข้าสู่ระบบ
+									</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal1">
+										<i class="glyphicon glyphicon-lock" aria-hidden="true"></i>สมัครสมาชิก
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<nav class="navbar navbar-default">
+					<!--Brand and toggle get grouped for better mobile display-->
+						
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>				  
+							
+						</div>
+						
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">หน้าแรก</a></li>
+								<li><a href="orchard.html">ชมสวน</a></li>
+								<li><a href="match.html">จับคู่สวน</a></li>
+								<li><a href="contact.html">ติดต่อเรา</a></li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+						<div class="email">
+							<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;
+							<a href="search.html">
+								<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+							</a>
+						</div>
+					</nav>
 				</div>
-				
-				<div class="email">
-					<ul>
-						<li>
-							<a href="chat.html" >
-								<i class="glyphicon glyphicon-comment" aria-hidden="true"></i>แชท
-							</a>
-						</li>
-						<li>
-							<a href="#" data-toggle="modal" data-target="#myModal1">
-								<i class="glyphicon glyphicon-bell" aria-hidden="true"></i>แจ้งเตือน
-							</a>
-						</li>
-						<li>
-							<select>
-								<option value="sumet" selected>สุเมธ</option>
-								<option value="suan1" >สวนเบ็ญจวรรณ์</option>
-								<option value="suan2" >สวนกุลภัสร์</option>
-								<option value="suan3" >สวนพุดทรัพย์</option>
-								<option value="suan4" >สวนสิริจรรยา</option>
-								<option value="suan5" >สวนรุจิระธราพันธุ์</option>
-							</select>
-						</li>
-						<li>
-							<a href="#" data-toggle="modal" data-target="#myModal">
-								<i class="glyphicon glyphicon-log-out" aria-hidden="true"></i>ออกจากระบบ
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="clearfix"></div>
 			</div>
-			<nav class="navbar navbar-default">
-				<!--Brand and toggle get grouped for better mobile display-->
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>				  
-
-				</div>
-
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">หน้าแรก</a></li>
-						<li><a href="orchard.html">ชมสวน</a></li>
-						<li><a href="match.html">จับคู่สวน</a></li>
-						<li><a href="contact.html">ติดต่อเรา</a></li>
-					</ul>
-					<div class="clearfix"></div>
-				</div>
-				<div class="email">
-					<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;
-					<a href="search.html">
-						<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
-					</a>
-				</div>
-			</nav>
-		</div>
-	</div>
-	<!--header-->					
+		<!--header-->								
 
 		<!--banner-->
 		<div class="banner-section">
@@ -122,23 +111,180 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 		<!--banner-->
 		<br><br><br>
-		<div class="container-fluid">			
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+				</div>
+				<div class="col-md-4">
+					<div class="modal-body real-spa">
+						<div class="login-grids">
+							<div class="login">									
+								<div class="login-right">
+									<form>
+										<h3>เข้าสู่ระบบ</h3>
+										<input type="text" value="อีเมล์" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your Email';}" required="">	
+										<input type="password" value="รหัสผ่าน" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+										<h4><a href="#">ลืมรหัสผ่าน?</a></h4>
+										<div class="single-bottom">
+											<input type="checkbox"  id="brand" value="">
+											<label for="brand"><span></span>จดจำฉัน</label>
+										</div>
+										<input type="submit" value="เข้าสู่ระบบ">
+									</form>
+								</div>																
+							</div>								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+				</div>
+			</div>
+			<!--<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-2">
+					<h3 class="text-left">
+						เลือกผลไม้
+					</h3>
+					<br>
+					<div class="btn-group">
+						 
+						<button class="btn btn-default">
+							เลือกผลไม้
+						</button> 
+							<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+								<span class="caret"></span>
+							</button>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">ส้ม</a>
+							</li>
+							<li>
+								<a href="#">มะม่วง</a>
+							</li>
+							<li>
+								<a href="#">ทุเรียน</a>
+							</li>
+							<li>
+								<a href="#">เงาะ</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<h3 class="text-left">
+						เลือกสายพันธุ์
+					</h3>
+					<br>
+					<div class="btn-group">
+						 
+						<button class="btn btn-default">
+							เลือกสายพันธุ์
+						</button> 
+						<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">ส้มสายน้ำผึ้ง</a>
+							</li>
+							<li>
+								<a href="#">ส้มเขียวหวาน</a>
+							</li>
+							<li>
+								<a href="#">ส้มโชกุน</a>
+							</li>
+							<li>
+								<a href="#">ส้มเช้ง</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<h3 class="text-left">
+						จำนวน
+					</h3>
+					<br>
+					<div class="form-group">
+						<input type="text" class="form-control"/>
+					</div>
+					<br>
+					<div class="btn-group">
+						 
+						<button class="btn btn-default">
+							หน่วย
+						</button> 
+						<button data-toggle="dropdown" class="btn btn-default dropdown-toggle">
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">กิโลกรัม</a>
+							</li>
+							<li>
+								<a href="#">ตัน</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2">
+					 <br><br>
+					<button type="button" class="btn btn-success">
+						เพิ่ม
+					</button> 
+					<br><br>
+					<button type="button" class="btn btn-danger">
+						ลบ
+					</button>
+				</div>
+				<div class="col-md-2">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							ส้มเขียวหวาน 20 กิโลกรัม
+						</div>
+						<div class="panel-body">
+							ส้มโชกุน 50 กิโลกรัม
+						</div>
+						<div class="panel-footer">
+							ส้มสายน้ำผึ้ง 1 ตัน
+						</div>
+					</div> 
+					<button type="button" class="btn btn-primary">
+						จับคู่
+					</button>
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			<br><br>
+
 			<div class="row">
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
 					<div class="alert alert-success alert-dismissable" style="text-align: center;">
-						<h3>ผลลัพธ์การค้นหา</h3>
+						<h3>ผลลัพธ์</h3>
+						<br>
+						<ul class="breadcrumb">
+							<li class="active">
+								ส้มเขียวหวาน 20 กิโลกรัม 
+							</li>
+							<li>
+								<a href="#">ส้มโชกุน 50 กิโลกรัม</a>
+							</li>
+							<li>
+								<a href="#">ส้มสายน้ำผึ้ง 1 ตัน</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<div class="col-md-2">
 				</div>
-			</div>
+			</div>-->
 		</div>
 
 
-	<!--Featured Properties-->
-				<div class="feature-section">
+	<!--<div class="feature-section">
 					<div class="container">
 						<div class="feature-grids">
 							<div class="col-md-3 feature-grid">
@@ -170,9 +316,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="clearfix"></div>
 						</div>
 					</div>
-				</div>
-			<!--Featured Properties-->
-
+				</div>-->
+				
 		<!--footer-->
 					<div class="footer-section">
 						<div class="container">

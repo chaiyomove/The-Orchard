@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Search</title>
+<title>The Orchard</title>
 <!---css--->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -23,19 +23,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!---fonts-->
 <!--<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>-->
+<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>-->
 <!---fonts-->
-<!-- pop-up -->
-<link rel="stylesheet" href="css/swipebox.css">
-			<script src="js/jquery.swipebox.min.js"></script> 
-			    <script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-				</script>
-
-<!-- pop-up -->
+<script src="js/responsiveslides.min.js"></script>
+	 <script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto:true,
+			nav: false,
+			speed: 1000,
+			namespace: "callbacks",
+			pager:true,
+		  });
+		});
+	</script>
+<link href="css/owl.carousel.css" rel="stylesheet">
+<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function() {
+		$("#owl-demo").owlCarousel({
+			items : 1,
+			lazyLoad : true,
+			autoPlay : true,
+			navigation : false,
+			navigationText :  false,
+			pagination : true,
+		});
+		});
+	</script>
 
 </head>
 <body>
@@ -113,35 +128,44 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</nav>
 		</div>
 	</div>
-	<!--header-->					
-
+	<!--header-->
+	
 		<!--banner-->
-		<div class="banner-section">
-			<div class="container">
-			</div>
-		</div>
-		<!--banner-->
-		<br><br><br>
-		<div class="container-fluid">			
-			<div class="row">
-				<div class="col-md-2">
-				</div>
-				<div class="col-md-8">
-					<div class="alert alert-success alert-dismissable" style="text-align: center;">
-						<h3>ผลลัพธ์การค้นหา</h3>
+		<div class="slider">
+			<div class="callbacks_container">
+				<ul class="rslides" id="slider">
+					<div class="slid banner1">
+						  <div class="caption">
+								<h3>เงาะ</h3>
+								<p>เงาะโรงเรียน</p>
+								<a href="#" class="button">อ่านเพิ่ม</a>
+						  </div>
 					</div>
-				</div>
-				<div class="col-md-2">
-				</div>
+					<div class="slid banner2">	
+						  <div class="caption">
+								<h3>มะม่วง</h3>
+								<p>มะม่วงหวานๆ</p>
+								<a href="#" class="button">อ่านเพิ่ม</a>
+						  </div>
+					</div>
+					<div class="slid banner3">	
+						<div class="caption">
+							<h3>ทุเรียน</h3>
+							<p>หวาน กรอบ อร่อย</p>
+							<a href="#" class="button">อ่านเพิ่ม</a>
+						</div>
+					</div>
+				</ul>
 			</div>
 		</div>
 
-
-	<!--Featured Properties-->
+			<!--Featured Properties-->
 				<div class="feature-section">
 					<div class="container">
+						<h3>สวนที่ลงใหม่</h3>
 						<div class="feature-grids">
 							<div class="col-md-3 feature-grid">
+								<img src="images/new.png" style="position: absolute; margin-left: -5px; margin-top: -2px">
 								<img src="images/f1.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>ส้มส้ม จากสวนสิรภัทร</h5>
 								<p>ส้มสดๆ ส้มสวยๆ ส้มหวานๆ </p>
@@ -150,18 +174,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</a>
 							</div>
 							<div class="col-md-3 feature-grid">
+								<img src="images/new.png" style="position: absolute; margin-left: -5px; margin-top: -2px">
 								<img src="images/f2.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>ทุเรียน จากสวนเปรม</h5>
 								<p>ทุเรียนหวานกรอบอร่อย</p>
 								<a href="#"><span class="glyphicon glyphicon-info-sign">&nbsp;ดูรายละเอียด</span></a>
 							</div>
 							<div class="col-md-3 feature-grid">
+								<img src="images/new.png" style="position: absolute; margin-left: -5px; margin-top: -2px">
 								<img src="images/f3.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>มะม่วง สวนนภัสสกร</h5>
 								<p>มะม่วงหลายพันธุ์ มาดูได้ค่ะ</p>
 								<a href="#"><span class="glyphicon glyphicon-info-sign">&nbsp;ดูรายละเอียด</span></a>
 							</div>
 							<div class="col-md-3 feature-grid">
+								<img src="images/new.png" style="position: absolute; margin-left: -5px; margin-top: -2px">
 								<img src="images/f4.jpg" class="img-responsive" alt="/" style=" max-height:155px; width:255px">
 								<h5>ลำไย สวนวศิน</h5>
 								<p>ลำไยดี ลำไยอร่อย ต้องลำไยสวนวศิน</p>
@@ -172,8 +199,49 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 				</div>
 			<!--Featured Properties-->
+			
+			<!--testimonials-->
+					<!--<div class="testimonials">
+						<div class="container">
+							<h3>testimonial</h3>
+							<span></span>
+							<div id="owl-demo" class="owl-carousel">
+								<div class="item">
+									<div class="col-md-2 testmonial-img">
+										<img src="images/t1.png" class="img-responsive" alt=""/>
+									</div>
+									<div class="col-md-10 testmonial-text">
+										<p>Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.</p>
+										<h4><a href="#">Sumet Benjawan</a></h4>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="item">
+									<div class="col-md-2 testmonial-img">
+										<img src="images/t2.png" class="img-responsive" alt=""/>
+									</div>
+									<div class="col-md-10 testmonial-text">
+										<p>Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.</p>
+										<h4><a href="#">Sirijanya Rujiratharapun</a></h4>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+								<div class="item">
+									<div class="col-md-2 testmonial-img">
+										<img src="images/t3.png" class="img-responsive" alt=""/>
+									</div>
+									<div class="col-md-10 testmonial-text">
+										<p>Lorem ipsum dolor sit amet, offendit volutpat sea ex, at omnium scripta pro, at omnium scripta pro, ei mea oratio malorum forensibus. ei mea oratio malorum forensibus. Sed ei omnes laoreet posidonium ei mea oratio malorum forensibus.</p>
+										<h4><a href="#">Kulapat Pudsub</a></h4>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+						</div>
+					</div>-->
+					<!--testmonials-->
 
-		<!--footer-->
+					<!--footer-->
 					<div class="footer-section">
 						<div class="container">
 							<div class="footer-grids">
@@ -216,7 +284,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						</div>
 					</div>
 					<!--copy-->
-<!-- login -->
+			<!-- login -->
 			<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content modal-info">
