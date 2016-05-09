@@ -21,9 +21,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="js/bootstrap.js"></script>
 <!---js--->
 <!---fonts-->
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>-->
 <!---fonts-->
 <!-- pop-up -->
 <link rel="stylesheet" href="css/swipebox.css">
@@ -49,11 +49,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="email">
-							<ul>
-								
-								<li><i class="glyphicon glyphicon-comment" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">แชท</a></li>
-								<li><i class="glyphicon glyphicon-log-in" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal">เข้าสู่ระบบ</a></li>
-								<li><i class="glyphicon glyphicon-lock" aria-hidden="true"></i><a href="#" data-toggle="modal" data-target="#myModal1">สมัครสมาชิก</a></li>
+							<ul>								
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal1">
+										<i class="glyphicon glyphicon-comment" aria-hidden="true"></i>แชท
+									</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal">
+										<i class="glyphicon glyphicon-log-in" aria-hidden="true"></i>เข้าสู่ระบบ
+									</a>
+								</li>
+								<li>
+									<a href="#" data-toggle="modal" data-target="#myModal1">
+										<i class="glyphicon glyphicon-lock" aria-hidden="true"></i>สมัครสมาชิก
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div class="clearfix"></div>
@@ -83,7 +94,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<div class="clearfix"></div>
 						</div>
 						<div class="email">
-							<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+							<input Type="text" placeholder="ค้นหา" max=30>&nbsp;&nbsp;&nbsp;
+							<a href="search.html">
+								<i class="glyphicon glyphicon-search" aria-hidden="true"></i>
+							</a>
 						</div>
 					</nav>
 				</div>
@@ -189,20 +203,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									
 									<div class="login-right">
 										<form>
-											<h3>Login</h3>
-											<input type="text" value="Enter your Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your Email';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
-											<h4><a href="#">Forgot password</a> / <a href="#">Create new password</a></h4>
+											<h3>เข้าสู่ระบบ</h3>
+											<input type="text" value="อีเมล์" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your Email';}" required="">	
+											<input type="password" value="รหัสผ่าน" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<h4><a href="#">ลืมรหัสผ่าน?</a></h4>
 											<div class="single-bottom">
 												<input type="checkbox"  id="brand" value="">
-												<label for="brand"><span></span>Remember Me.</label>
+												<label for="brand"><span></span>จดจำฉัน</label>
 											</div>
-											<input type="submit" value="Login Now" >
+											<input type="submit" value="เข้าสู่ระบบ" >
 										</form>
-									</div>
-																
-								</div>
-								<p>By logging in you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a> and <a href="#">Privacy Policy</a></p>
+									</div>																
+								</div>								
 							</div>
 						</div>
 					</div>
@@ -221,18 +233,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="login">
 									<div class="login-right">
 										<form>
-											<h3>Register </h3>
-											<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-											<input type="text" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-											<input type="text" value="Email id" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
-											<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
+											<h3>สมัครสมาชิก</h3>
+											<input type="text" value="ชื่อ" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'FName';}" required="">
+											<input type="text" value="นามสกุล" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'LName';}" required="">
+											<input type="text" value="อีเมล์" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email id';}" required="">	
+											<input type="password" value="รหัสผ่าน" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}" required="">	
 											
-											<input type="submit" value="Register Now" >
+											<input type="submit" value="สมัครสมาชิก" >
 										</form>
 									</div>
 									<div class="clearfix"></div>								
 								</div>
-								<p>By logging in you agree to our <a href="#">Terms</a> and <a href="#">Conditions</a> and <a href="#">Privacy Policy</a></p>
+								
 							</div>
 						</div>
 					</div>

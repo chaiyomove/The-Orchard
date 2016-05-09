@@ -202,17 +202,17 @@ div#bs-example-navbar-collapse-1 {
 .banner1{
 	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:650px;
+	height:650px;
 }
 .banner2{
 	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:650px;
+	height:650px;
 }
 .banner3{
 	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
 	background-size:cover;
-	min-height:650px;
+	height:650px;
 }
 .slider {
 	position: relative;
