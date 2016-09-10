@@ -124,12 +124,12 @@ body{
     margin-bottom: 0;
     border: none !important;
 	background: #333d47;
-	padding-top: 4em;
+	padding-top: 2em;
 }
 .navbar-nav {
     float: left;
     margin: 0;
-    width: 70%;
+    
 }
 div#bs-example-navbar-collapse-1 {
     float: left;
@@ -200,19 +200,22 @@ div#bs-example-navbar-collapse-1 {
 }
 /*--- slider-css --*/
 .banner1{
+    margin-left: 7.5em;
+    margin-top: 1.8em;
 	background:url(../images/bnr1.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:650px;
+	background-size:1140px 450px;
 }
 .banner2{
+    margin-left: 7.5em;
+    margin-top: 1.8em;
 	background:url(../images/bnr2.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:650px;
+	background-size:1140px 450px;
 }
 .banner3{
+    margin-left: 7.5em;
+    margin-top: 1.8em;
 	background:url(../images/bnr3.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:650px;
+	background-size:1140px 450px;
 }
 .slider {
 	position: relative;
